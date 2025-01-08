@@ -20,7 +20,7 @@
   
 **Essential AOP Annotations include:**  
   * `@Aspect` Marks/indicates that a class is an aspect, and can cut across more than one class (such as for enterprise app implementations).
-    `@Pointcut` Declares reusable pointcut expressions.
+  * `@Pointcut` Declares reusable pointcut expressions.
   * `@Before` Indicates that an advice is to run before a method is executed.
   * `@After` Indicates that an advice is to run after a method is executed (regardless of which it terminates properly or by throwing an exception).
   * `@Around` Indicates that an advice wraps around, or surrounds, a method. Invokes a specified join point method.
@@ -29,4 +29,5 @@
 
 <hr />  
 
-TODO: Add annotations and descriptions for Core, Scheduling, Spring Boot, Spring Cloud, Spring Data, Spring MVC, Spring Security, and Testing.`
+TODO #1: Add annotations and descriptions for Core, Scheduling, Spring Boot, Spring Cloud, Spring Data, Spring MVC, Spring Security, and Testing.  
+TODO #2: Add code examples.
