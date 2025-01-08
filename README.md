@@ -46,4 +46,4 @@
 <hr />  
 TODO #1: Add annotations and descriptions for Core, Scheduling, Spring Boot, Spring Cloud, Spring Data, Spring MVC, and Testing.  
   
-TODO #2: Add code examples.
+TODO #2: Add code examples for annotations (as separate text files, linked to from this file).
