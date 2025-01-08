@@ -15,8 +15,6 @@
 *Proxies:* Proxy classes are established (via JDK dynamic proxy), which are associated with advice markings/invocations and target classes (AOP proxy classes).  
 
 *Weaving:* The tasks that associates aspects with related objects, establishing the advised proxy objects. AOP natively does this at.  
-
-<hr />  
   
 **Essential AOP Annotations include:**  
   * `@Aspect`: Marks/indicates that a class is an aspect, and can cut across more than one class (such as for enterprise app implementations).
@@ -29,8 +27,15 @@
 
 <hr />  
 
-**Spring Security Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
+**Essential Scheduling Annotations include:**
+  * `@Scheduled`: Schedules processes to run routinely or as otherwise specified.
+  * `@Schedules`: Indicates multiple scheduling rules for the app.
+  * `@EnableScheduling`: Toggles on scheduling support for the app.
+  * `@Async`: Indicates that a method is to be ran asynchronously.
+  * `@EnableAsync`: Toggles on asynchronous processing for the app.  
 <hr />
+  
+**Spring Security Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
   
 **Essential Spring Security Annotations include:**  
   * `@EnableWebSecurity`: Toggles Spring Security to on for the associated app.
@@ -44,6 +49,6 @@
   * `@AuthenticationPrincipal`: Injects the presently authenticated user into a class or method as an authentication object.
 
 <hr />  
-TODO #1: Add annotations and descriptions for Core, Scheduling, Spring Boot, Spring Cloud, Spring Data, Spring MVC, and Testing.  
+TODO #1: Add annotations and descriptions for Core, Spring Boot, Spring Cloud, Spring Data, Spring MVC, and Testing.  
   
 TODO #2: Add code examples for annotations (as separate text files, linked to from this file).
