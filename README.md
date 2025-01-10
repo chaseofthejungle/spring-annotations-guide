@@ -1,21 +1,18 @@
 # Spring Annotations Guide
 
 **Spring Aspect-Oriented Programming (AOP) Overview:** Knowledge of several concepts is essential to understanding the underlying tenets of AOP. These include...
-  
-*Aspects:* Aspects are classes that implement enterprise app behavior, cutting across more than one class in doing so. There are multiple ways to configure an aspect, such as through XML or using the AspectJ integration.  
 
-*Join Points:* Join points are points/places in apps in which tasks are performed, such as modifying variable values of objects, handling exceptions, and running methods. Join points are 'located' at the execution points of methods.  
+| Concept | Explanation of AOP Concept |
+| :--------: | -------- |
+| *Aspects* | Aspects are classes that implement enterprise app behavior, cutting across more than one class in doing so. There are multiple ways to configure an aspect, such as through XML or using the AspectJ integration. |
+| *Join Points* | Join points are points/places in apps in which tasks are performed, such as modifying variable values of objects, handling exceptions, and running methods. Join points are 'located' at the execution points of methods. |
+| *Pointcuts* | Pointcut expressions (using AspectJ pointcut expression language) are associated with join points, and evaluate if an advice is to be executed. |
+| *Advices* | Advices are actions that are performed for their associated join points. These methods are ran when join points with associated pointcuts are reached in app execution. |
+| *Target Objects* | Advices are associated with these proxied objects. These use runtime proxies, which means that subclasses are established at runtime (configurations determine which advices are to be applied and target methods are overridden). |
+| *Proxies* | Proxy classes are established (via JDK dynamic proxy), which are associated with advice markings/invocations and target classes (AOP proxy classes). |
+| *Weaving* | The tasks that associates aspects with related objects, establishing the advised proxy objects. AOP natively does this at. |
+<br />  
 
-*Pointcuts:* Pointcut expressions (using AspectJ pointcut expression language) are associated with join points, and evaluate if an advice is to be executed.  
-
-*Advices:* Advices are actions that are performed for their associated join points. These methods are ran when join points with associated pointcuts are reached in app execution.  
-
-*Target Objects:* Advices are associated with these proxied objects. These use runtime proxies, which means that subclasses are established at runtime (configurations determine which advices are to be applied and target methods are overridden).  
-
-*Proxies:* Proxy classes are established (via JDK dynamic proxy), which are associated with advice markings/invocations and target classes (AOP proxy classes).  
-
-*Weaving:* The tasks that associates aspects with related objects, establishing the advised proxy objects. AOP natively does this at.  
-  
 **Essential AOP Annotations include:**  
   * `@Aspect`: Marks/indicates that a class is an aspect, and can cut across more than one class (such as for enterprise app implementations).
   * `@Pointcut`: Declares reusable pointcut expressions.
