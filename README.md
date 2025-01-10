@@ -14,45 +14,54 @@
 <br />  
 
 **Essential AOP Annotations include:**  
-  * `@Aspect`: Marks/indicates that a class is an aspect, and can cut across more than one class (such as for enterprise app implementations).
-  * `@Pointcut`: Declares reusable pointcut expressions.
-  * `@Before`: Indicates that an advice is to run before a method is executed.
-  * `@After`: Indicates that an advice is to run after a method is executed (regardless of which it terminates properly or by throwing an exception).
-  * `@Around`: Indicates that an advice wraps around, or surrounds, a method. Invokes a specified join point method.
-  * `@AfterThrowing`: Indicates that an advice is to run after a method executes and throws an exception (method does not run properly/normally).
-  * `@AfterReturning`: Indicates that an advice is to run after a method executes and returns properly (without throwing an exception).
+| Annotation | Explanation of AOP Annotation |
+| :--------: | -------- |
+| `@Aspect` | Marks/indicates that a class is an aspect, and can cut across more than one class (such as for enterprise app implementations). |
+| `@Pointcut` | Declares reusable pointcut expressions. |
+| `@Before` | Indicates that an advice is to run before a method is executed. |
+| `@After` | Indicates that an advice is to run after a method is executed (regardless of which it terminates properly or by throwing an exception). |
+| `@Around` | Indicates that an advice wraps around, or surrounds, a method. Invokes a specified join point method. |
+| `@AfterThrowing` | Indicates that an advice is to run after a method executes and throws an exception (method does not run properly/normally). |
+| `@AfterReturning` | Indicates that an advice is to run after a method executes and returns properly (without throwing an exception). |
 
 <hr />  
 
 **Essential Scheduling Annotations include:**
-  * `@Scheduled`: Schedules processes to run routinely or as otherwise specified.
-  * `@Schedules`: Indicates multiple scheduling rules for the app.
-  * `@EnableScheduling`: Toggles on scheduling support for the app.
-  * `@Async`: Indicates that a method is to be ran asynchronously.
-  * `@EnableAsync`: Toggles on asynchronous processing for the app.  
+| Annotation | Explanation of Scheduling Annotation |
+| -------- | -------- |
+| `@Scheduled` | Schedules processes to run routinely or as otherwise specified. |
+| `@Schedules` | Indicates multiple scheduling rules for the app. |
+| `@EnableScheduling` | Toggles on scheduling support for the app. |
+| `@Async` | Indicates that a method is to be ran asynchronously. |
+| `@EnableAsync` | Toggles on asynchronous processing for the app. | 
 <hr />
   
 **Spring Security Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
+<br /><br />
   
-**Essential Spring Security Annotations include:**  
-  * `@EnableWebSecurity`: Toggles Spring Security to on for the associated app.
-  * `@PreFilter`: Provides an expression that, if true, adds a class or method to a security filter chain.
-  * `@PostFilter`: Provides an expression that, if determined to be true after a class or method is ran, adds it to a security filter chain.
-  * `@Secured`: Defines role-associated security for methods.
-  * `@RolesAllowed`: Indicates which roles can access a method.
-  * `@PreAuthorize`: Indicates pre-authorization checks for methods.
-  * `@PostAuthorize`: Indicates post-authorization checks for methods.
-  * `@RoleHierarchy`: States permitted roles, clarifying security configuration (and limiting the need for @PreAuthorize and @RolesAllowed annotations).
-  * `@AuthenticationPrincipal`: Injects the presently authenticated user into a class or method as an authentication object.
+**Essential Spring Security Annotations include:** 
+| Annotation | Explanation of Security Annotation |
+| :--------: | -------- |
+| `@EnableWebSecurity` | Toggles Spring Security to on for the associated app. |
+| `@PreFilter` | Provides an expression that, if true, adds a class or method to a security filter chain. |
+| `@PostFilter` | Provides an expression that, if determined to be true after a class or method is ran, adds it to a security filter chain. |
+| `@Secured` | Defines role-associated security for methods. |
+| `@RolesAllowed` | Indicates which roles can access a method. |
+| `@PreAuthorize` | Indicates pre-authorization checks for methods. |
+| `@PostAuthorize` | Indicates post-authorization checks for methods. |
+| `@RoleHierarchy` | States permitted roles, clarifying security configuration (and limiting the need for @PreAuthorize and @RolesAllowed annotations). |
+| `@AuthenticationPrincipal` | Injects the presently authenticated user into a class or method as an authentication object. |
 
 <hr />  
 
 **Essential Spring Testing Annotations include:**
-* `@SpringBootTest`: Loads the Spring context so that it can be integration tested.
-* `@WebMvcTest`: Concentrates Spring MVC testing onto specific components/beans.
-* `@TestConfiguration`: Establishes configuration classes for specified tests.
-* `@DataJpaTest`: Consults an in-memory database for JPA repository testing.
-* `@MockBean`: Establishes new mock beans for the Spring context.
+| Annotation | Explanation of Testing Annotation |
+| :--------: | -------- |
+| `@SpringBootTest` | Loads the Spring context so that it can be integration tested. |
+| `@WebMvcTest` | Concentrates Spring MVC testing onto specific components/beans. |
+| `@TestConfiguration` | Establishes configuration classes for specified tests. |
+| `@DataJpaTest` | Consults an in-memory database for JPA repository testing. |
+| `@MockBean` | Establishes new mock beans for the Spring context. |
   
 <hr />
   
