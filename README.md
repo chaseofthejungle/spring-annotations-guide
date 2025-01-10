@@ -49,6 +49,16 @@
   * `@AuthenticationPrincipal`: Injects the presently authenticated user into a class or method as an authentication object.
 
 <hr />  
-TODO #1: Add annotations and descriptions for Core, Spring Boot, Spring Cloud, Spring Data, Spring MVC, and Testing.  
+
+**Essential Spring Testing Annotations include:**
+* `@SpringBootTest`: Loads the Spring context so that it can be integration tested.
+* `@WebMvcTest`: Concentrates Spring MVC testing onto specific components/beans.
+* `@TestConfiguration`: Establishes configuration classes for specified tests.
+* `@DataJpaTest`: Consults an in-memory database for JPA repository testing.
+* `@MockBean`: Establishes new mock beans for the Spring context.
+  
+<hr />
+  
+TODO #1: Add annotations and descriptions for Core, Spring Boot, Spring Cloud, Spring Data, and Spring MVC.
   
 TODO #2: Add code examples for annotations (as separate text files, linked to from this file).
