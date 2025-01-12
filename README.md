@@ -85,6 +85,6 @@
   
 <hr />
   
-TODO #1: Add annotations and descriptions for Core, Spring Boot, Spring Data, and Spring MVC, along with a Table of Contents with links to sections.
+TODO #1: Add annotations and descriptions for Spring Boot, Spring Core, Spring Data, and Spring MVC, along with a Table of Contents with links to sections.
   
-TODO #2: Add code examples for annotations (as separate text files, linked to from this file).
+TODO #2: Add code examples for annotations (as separate text files, linked to from this file), including one file for each category of annotation (9 files of code in total).
