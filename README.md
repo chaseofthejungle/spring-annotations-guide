@@ -13,7 +13,7 @@
 | *Weaving* | The tasks that associates aspects with related objects, establishing the advised proxy objects. AOP natively does this at. |
 <br />  
 
-**Essential AOP Annotations include:**  
+**Essential Spring AOP Annotations include:**  
 | Annotation | Explanation of AOP Annotation |
 | :--------: | -------- |
 | `@Aspect` | Marks/indicates that a class is an aspect, and can cut across more than one class (such as for enterprise app implementations). |
@@ -25,16 +25,6 @@
 | `@AfterReturning` | Indicates that an advice is to run after a method executes and returns properly (without throwing an exception). |
 
 <hr />  
-
-**Essential Scheduling Annotations include:**
-| Annotation | Explanation of Scheduling Annotation |
-| :--------: | -------- |
-| `@Scheduled` | Schedules processes to run routinely or as otherwise specified. |
-| `@Schedules` | Indicates multiple scheduling rules for the app. |
-| `@EnableScheduling` | Toggles on scheduling support for the app. |
-| `@Async` | Indicates that a method is to be ran asynchronously. |
-| `@EnableAsync` | Toggles on asynchronous processing for the app. | 
-<hr />
   
 **Essential Spring Cloud Annotations include:**
 | Annotation | Explanation of Spring Cloud Annotation |
@@ -45,7 +35,20 @@
 | `@HystrixCommand` | Used for determining when to open/close circuits, and provides fault tolerance. |
 | `@RefreshScope` | Provides dynamic, runtime-based refreshing of bean definitions/configuration properties. |
 <hr />
-  
+
+**Spring Scheduling Overview:** Process automation, performance, and various app functionalities can be enhanced through Spring's task/process scheduling mechanism (the TaskScheduler interface).
+<br /><br />
+
+**Essential Spring Scheduling Annotations include:**
+| Annotation | Explanation of Scheduling Annotation |
+| :--------: | -------- |
+| `@Scheduled` | Schedules processes to run routinely or as otherwise specified. |
+| `@Schedules` | Indicates multiple scheduling rules for the app. |
+| `@EnableScheduling` | Toggles on scheduling support for the app. |
+| `@Async` | Indicates that a method is to be ran asynchronously. |
+| `@EnableAsync` | Toggles on asynchronous processing for the app. | 
+<hr />
+
 **Spring Security Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
 <br /><br />
   
