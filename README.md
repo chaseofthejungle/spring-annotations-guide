@@ -28,7 +28,7 @@
 
 **Essential Scheduling Annotations include:**
 | Annotation | Explanation of Scheduling Annotation |
-| -------- | -------- |
+| :--------: | -------- |
 | `@Scheduled` | Schedules processes to run routinely or as otherwise specified. |
 | `@Schedules` | Indicates multiple scheduling rules for the app. |
 | `@EnableScheduling` | Toggles on scheduling support for the app. |
@@ -38,7 +38,7 @@
   
 **Essential Spring Cloud Annotations include:**
 | Annotation | Explanation of Spring Cloud Annotation |
-| -------- | -------- |
+| :--------: | -------- |
 | `@EnableDiscoveryClient` | Toggles on the service discovery client for Spring Cloud web apps. |
 | `@FeignClient` | Indicates a declarative Feign service client (used for web-based microservice communications). |
 | `@EnableCircuitBreaker` | Provides abstraction layer for circuit breaking technologies. |
