@@ -26,6 +26,10 @@
 
 <hr />  
   
+**Spring Cloud Overview:** Spring Cloud enables distributed systems developers to easily set up Cloud services and apps (through annotations and adopting/adapting boilerplate code), including managing various components and functionalities of Cloud-based systems (e.g., dynamic routing configurations, microservice proxy systems, control bus communications, circuit breaking, Spring Cloud contract tests, service discovery systems).
+<br /><br />
+
+
 **Essential Spring Cloud Annotations include:**
 | Annotation | Explanation of Spring Cloud Annotation |
 | :--------: | -------- |
