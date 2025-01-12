@@ -64,6 +64,9 @@
 
 <hr />  
 
+**Spring Testing Overview:** The Spring Framework's Inversion of Control (IoC) principles and support for class constructors and setter methods allow for well-defined (such as in the case of wiring beans) and easily implemented unit and integration testing (especially when utilizing a test-driven development (TDD) approach).
+<br /><br />
+  
 **Essential Spring Testing Annotations include:**
 | Annotation | Explanation of Testing Annotation |
 | :--------: | -------- |
