@@ -36,6 +36,16 @@
 | `@EnableAsync` | Toggles on asynchronous processing for the app. | 
 <hr />
   
+**Essential Spring Cloud Annotations include:**
+| Annotation | Explanation of Spring Cloud Annotation |
+| -------- | -------- |
+| `@EnableDiscoveryClient` | Toggles on the service discovery client for Spring Cloud web apps. |
+| `@FeignClient` | Indicates a declarative Feign service client (used for web-based microservice communications). |
+| `@EnableCircuitBreaker` | Provides abstraction layer for circuit breaking technologies. |
+| `@HystrixCommand` | Used for determining when to open/close circuits, and provides fault tolerance. |
+| `@RefreshScope` | Provides dynamic, runtime-based refreshing of bean definitions/configuration properties. |
+<hr />
+  
 **Spring Security Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
 <br /><br />
   
@@ -65,6 +75,6 @@
   
 <hr />
   
-TODO #1: Add annotations and descriptions for Core, Spring Boot, Spring Cloud, Spring Data, and Spring MVC.
+TODO #1: Add annotations and descriptions for Core, Spring Boot, Spring Data, and Spring MVC.
   
 TODO #2: Add code examples for annotations (as separate text files, linked to from this file).
