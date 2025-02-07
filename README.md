@@ -13,19 +13,19 @@
 ## 1. <a name="spring-aop">Spring Aspect-Oriented Programming (AOP)</a>
   
 | Concept | Explanation |
-| :--------: | -------- |
-| *Aspects* | Aspects are classes that implement enterprise app behavior, cutting across more than one class in doing so. There are multiple ways to configure an aspect, such as through XML or using the AspectJ integration. |
-| *Join Points* | Join points are points/places in apps in which tasks are performed, such as modifying variable values of objects, handling exceptions, and running methods. Join points are 'located' at the execution points of methods. |
-| *Pointcuts* | Pointcut expressions (using AspectJ pointcut expression language) are associated with join points, and evaluate if an advice is to be executed. |
-| *Advices* | Advices are actions that are performed for their associated join points. These methods are ran when join points with associated pointcuts are reached in app execution. |
-| *Target Objects* | Advices are associated with these proxied objects. These use runtime proxies, which means that subclasses are established at runtime (configurations determine which advices are to be applied and target methods are overridden). |
-| *Proxies* | Proxy classes are established (via JDK dynamic proxy), which are associated with advice markings/invocations and target classes (AOP proxy classes). |
-| *Weaving* | The tasks that associates aspects with related objects, establishing the advised proxy objects. AOP natively does this at. |
+| -------- | -------- |
+| `Aspects` | Aspects are classes that implement enterprise app behavior, cutting across more than one class in doing so. There are multiple ways to configure an aspect, such as through XML or using the AspectJ integration. |
+| `Join Points` | Join points are points/places in apps in which tasks are performed, such as modifying variable values of objects, handling exceptions, and running methods. Join points are 'located' at the execution points of methods. |
+| `Pointcuts` | Pointcut expressions (using AspectJ pointcut expression language) are associated with join points, and evaluate if an advice is to be executed. |
+| `Advices` | Advices are actions that are performed for their associated join points. These methods are ran when join points with associated pointcuts are reached in app execution. |
+| `Target Objects` | Advices are associated with these proxied objects. These use runtime proxies, which means that subclasses are established at runtime (configurations determine which advices are to be applied and target methods are overridden). |
+| `Proxies` | Proxy classes are established (via JDK dynamic proxy), which are associated with advice markings/invocations and target classes (AOP proxy classes). |
+| `Weaving` | The tasks that associates aspects with related objects, establishing the advised proxy objects. AOP natively does this at. |
 <br />  
 
 **Essential Annotations include:**
 | Annotation | Explanation |
-| :--------: | -------- |
+| -------- | -------- |
 | `@Aspect` | Marks/indicates that a class is an aspect, and can cut across more than one class (such as for enterprise app implementations). |
 | `@Pointcut` | Declares reusable pointcut expressions. |
 | `@Before` | Indicates that an advice is to run before a method is executed. |
@@ -43,7 +43,7 @@
   
 **Essential Annotations include:**
 | Annotation | Explanation |
-| :--------: | -------- |
+| -------- | -------- |
 | `@EnableDiscoveryClient` | Toggles on the service discovery client for Spring Cloud web apps. |
 | `@FeignClient` | Indicates a declarative Feign service client (used for web-based microservice communications). |
 | `@EnableCircuitBreaker` | Provides abstraction layer for circuit breaking technologies. |
@@ -58,7 +58,7 @@
 
 **Essential Annotations include:**
 | Annotation | Explanation |
-| :--------: | -------- |
+| -------- | -------- |
 | `@Scheduled` | Schedules processes to run routinely or as otherwise specified. |
 | `@Schedules` | Indicates multiple scheduling rules for the app. |
 | `@EnableScheduling` | Toggles on scheduling support for the app. |
@@ -73,7 +73,7 @@
   
 **Essential Annotations include:** 
 | Annotation | Explanation |
-| :--------: | -------- |
+| -------- | -------- |
 | `@EnableWebSecurity` | Toggles Spring Security to on for the associated app. |
 | `@PreFilter` | Provides an expression that, if true, adds a class or method to a security filter chain. |
 | `@PostFilter` | Provides an expression that, if determined to be true after a class or method is ran, adds it to a security filter chain. |
@@ -93,7 +93,7 @@
   
 **Essential Annotations include:**
 | Annotation | Explanation |
-| :--------: | -------- |
+| -------- | -------- |
 | `@SpringBootTest` | Loads the Spring context so that it can be integration tested. |
 | `@WebMvcTest` | Concentrates Spring MVC testing onto specific components/beans. |
 | `@TestConfiguration` | Establishes configuration classes for specified tests. |
