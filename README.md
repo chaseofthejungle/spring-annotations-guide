@@ -12,9 +12,7 @@
 
 ## 1. <a name="spring-aop">Spring Aspect-Oriented Programming (AOP)</a>
   
-**Overview:** Knowledge of several concepts is essential to understanding the underlying tenets of AOP. These include...
-
-| Concept | Explanation of AOP Concept |
+| Concept | Explanation |
 | :--------: | -------- |
 | *Aspects* | Aspects are classes that implement enterprise app behavior, cutting across more than one class in doing so. There are multiple ways to configure an aspect, such as through XML or using the AspectJ integration. |
 | *Join Points* | Join points are points/places in apps in which tasks are performed, such as modifying variable values of objects, handling exceptions, and running methods. Join points are 'located' at the execution points of methods. |
@@ -25,8 +23,8 @@
 | *Weaving* | The tasks that associates aspects with related objects, establishing the advised proxy objects. AOP natively does this at. |
 <br />  
 
-**Essential Spring AOP Annotations include:**  
-| Annotation | Explanation of AOP Annotation |
+**Essential Annotations include:**
+| Annotation | Explanation |
 | :--------: | -------- |
 | `@Aspect` | Marks/indicates that a class is an aspect, and can cut across more than one class (such as for enterprise app implementations). |
 | `@Pointcut` | Declares reusable pointcut expressions. |
@@ -41,10 +39,10 @@
 ## 2. <a name="spring-cloud">Spring Cloud</a>
   
 **Overview:** Spring Cloud enables distributed systems developers to easily set up Cloud services and apps (through annotations and adopting/adapting boilerplate code), including managing various components and functionalities of Cloud-based systems (e.g., dynamic routing configurations, microservice proxy systems, control bus communications, circuit breaking, Spring Cloud contract tests, service discovery systems).
-<br /><br />
+<br />
   
-**Essential Spring Cloud Annotations include:**
-| Annotation | Explanation of Spring Cloud Annotation |
+**Essential Annotations include:**
+| Annotation | Explanation |
 | :--------: | -------- |
 | `@EnableDiscoveryClient` | Toggles on the service discovery client for Spring Cloud web apps. |
 | `@FeignClient` | Indicates a declarative Feign service client (used for web-based microservice communications). |
@@ -56,10 +54,10 @@
 ## 3. <a name="spring-scheduling">Spring Scheduling</a>
   
 **Overview:** Process automation, performance, and various app functionalities can be enhanced through Spring's task/process scheduling mechanism (the TaskScheduler interface).
-<br /><br />
+<br />
 
-**Essential Spring Scheduling Annotations include:**
-| Annotation | Explanation of Scheduling Annotation |
+**Essential Annotations include:**
+| Annotation | Explanation |
 | :--------: | -------- |
 | `@Scheduled` | Schedules processes to run routinely or as otherwise specified. |
 | `@Schedules` | Indicates multiple scheduling rules for the app. |
@@ -71,10 +69,10 @@
 ## 4. <a name="spring-security">Spring Security</a>
   
 **Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
-<br /><br />
+<br />
   
-**Essential Spring Security Annotations include:** 
-| Annotation | Explanation of Security Annotation |
+**Essential Annotations include:** 
+| Annotation | Explanation |
 | :--------: | -------- |
 | `@EnableWebSecurity` | Toggles Spring Security to on for the associated app. |
 | `@PreFilter` | Provides an expression that, if true, adds a class or method to a security filter chain. |
@@ -91,10 +89,10 @@
 ## 5. <a name="spring-testing">Spring Testing</a>
 
 **Overview:** The Spring Framework's Inversion of Control (IoC) principles and support for class constructors and setter methods allow for well-defined (such as in the case of wiring beans) and easily implemented unit and integration testing (especially when utilizing a test-driven development (TDD) approach).
-<br /><br />
+<br />
   
-**Essential Spring Testing Annotations include:**
-| Annotation | Explanation of Testing Annotation |
+**Essential Annotations include:**
+| Annotation | Explanation |
 | :--------: | -------- |
 | `@SpringBootTest` | Loads the Spring context so that it can be integration tested. |
 | `@WebMvcTest` | Concentrates Spring MVC testing onto specific components/beans. |
@@ -104,6 +102,6 @@
   
 <hr />
   
-TODO #1: Add annotations and descriptions for Spring Boot, Spring Core, Spring Data, and Spring MVC, along with a Table of Contents with links to sections.
+TODO #1: Add annotations, descriptions, and table of contents entries for Spring Boot, Spring Core, Spring Data, and Spring MVC.
   
 TODO #2: Add code examples for annotations (as separate text files, linked to from this file), including one file for each category of annotation (9 files of code in total).
