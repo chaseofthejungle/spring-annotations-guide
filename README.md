@@ -1,6 +1,18 @@
 # Spring Annotations Guide
+  
+#### Table of Contents:
+  
+1. [Spring Aspect-Oriented Programming (AOP)](#spring-aop)
+2. [Spring Cloud](#spring-cloud)
+3. [Spring Scheduling](#spring-scheduling)
+4. [Spring Security](#spring-security)
+5. [Spring Testing](#spring-testing)
+  
+<hr />
 
-**Spring Aspect-Oriented Programming (AOP) Overview:** Knowledge of several concepts is essential to understanding the underlying tenets of AOP. These include...
+## 1. <a name="spring-aop">Spring Aspect-Oriented Programming (AOP)</a>
+  
+**Overview:** Knowledge of several concepts is essential to understanding the underlying tenets of AOP. These include...
 
 | Concept | Explanation of AOP Concept |
 | :--------: | -------- |
@@ -25,11 +37,12 @@
 | `@AfterReturning` | Indicates that an advice is to run after a method executes and returns properly (without throwing an exception). |
 
 <hr />  
+
+## 2. <a name="spring-cloud">Spring Cloud</a>
   
-**Spring Cloud Overview:** Spring Cloud enables distributed systems developers to easily set up Cloud services and apps (through annotations and adopting/adapting boilerplate code), including managing various components and functionalities of Cloud-based systems (e.g., dynamic routing configurations, microservice proxy systems, control bus communications, circuit breaking, Spring Cloud contract tests, service discovery systems).
+**Overview:** Spring Cloud enables distributed systems developers to easily set up Cloud services and apps (through annotations and adopting/adapting boilerplate code), including managing various components and functionalities of Cloud-based systems (e.g., dynamic routing configurations, microservice proxy systems, control bus communications, circuit breaking, Spring Cloud contract tests, service discovery systems).
 <br /><br />
-
-
+  
 **Essential Spring Cloud Annotations include:**
 | Annotation | Explanation of Spring Cloud Annotation |
 | :--------: | -------- |
@@ -40,7 +53,9 @@
 | `@RefreshScope` | Provides dynamic, runtime-based refreshing of bean definitions/configuration properties. |
 <hr />
 
-**Spring Scheduling Overview:** Process automation, performance, and various app functionalities can be enhanced through Spring's task/process scheduling mechanism (the TaskScheduler interface).
+## 3. <a name="spring-scheduling">Spring Scheduling</a>
+  
+**Overview:** Process automation, performance, and various app functionalities can be enhanced through Spring's task/process scheduling mechanism (the TaskScheduler interface).
 <br /><br />
 
 **Essential Spring Scheduling Annotations include:**
@@ -53,7 +68,9 @@
 | `@EnableAsync` | Toggles on asynchronous processing for the app. | 
 <hr />
 
-**Spring Security Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
+## 4. <a name="spring-security">Spring Security</a>
+  
+**Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
 <br /><br />
   
 **Essential Spring Security Annotations include:** 
@@ -71,7 +88,9 @@
 
 <hr />  
 
-**Spring Testing Overview:** The Spring Framework's Inversion of Control (IoC) principles and support for class constructors and setter methods allow for well-defined (such as in the case of wiring beans) and easily implemented unit and integration testing (especially when utilizing a test-driven development (TDD) approach).
+## 5. <a name="spring-testing">Spring Testing</a>
+
+**Overview:** The Spring Framework's Inversion of Control (IoC) principles and support for class constructors and setter methods allow for well-defined (such as in the case of wiring beans) and easily implemented unit and integration testing (especially when utilizing a test-driven development (TDD) approach).
 <br /><br />
   
 **Essential Spring Testing Annotations include:**
