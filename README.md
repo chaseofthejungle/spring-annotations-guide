@@ -3,10 +3,14 @@
 #### Table of Contents:
   
 1. [Spring Aspect-Oriented Programming (AOP)](#spring-aop)
-2. [Spring Cloud](#spring-cloud)
-3. [Spring Scheduling](#spring-scheduling)
-4. [Spring Security](#spring-security)
-5. [Spring Testing](#spring-testing)
+2. [Spring Boot](#spring-boot)
+3. [Spring Cloud](#spring-cloud)
+4. [Spring Core](#spring-core)
+5. [Spring Data](#spring-data)
+6. [Spring MVC](#spring-mvc)
+7. [Spring Scheduling](#spring-scheduling)
+8. [Spring Security](#spring-security)
+9. [Spring Testing](#spring-testing)
   
 <hr />
 
@@ -36,7 +40,11 @@
 
 <hr />  
 
-## 2. <a name="spring-cloud">Spring Cloud</a>
+## 2. <a name="spring-boot">Spring Boot</a>
+(TODO)
+<hr />
+
+## 3. <a name="spring-cloud">Spring Cloud</a>
   
 **Overview:** Spring Cloud enables distributed systems developers to easily set up Cloud services and apps (through annotations and adopting/adapting boilerplate code), including managing various components and functionalities of Cloud-based systems (e.g., dynamic routing configurations, microservice proxy systems, control bus communications, circuit breaking, Spring Cloud contract tests, service discovery systems).
 <br />
@@ -51,7 +59,19 @@
 | `@RefreshScope` | Provides dynamic, runtime-based refreshing of bean definitions/configuration properties. |
 <hr />
 
-## 3. <a name="spring-scheduling">Spring Scheduling</a>
+## 4. <a name="spring-core">Spring Core</a>
+(TODO)
+<hr />
+  
+## 5. <a name="spring-data">Spring Data</a>
+(TODO)  
+<hr />
+  
+## 6. <a name="spring-mvc">Spring MVC</a>
+(TODO)
+<hr />
+  
+## 7. <a name="spring-scheduling">Spring Scheduling</a>
   
 **Overview:** Process automation, performance, and various app functionalities can be enhanced through Spring's task/process scheduling mechanism (the TaskScheduler interface).
 <br />
@@ -66,7 +86,7 @@
 | `@EnableAsync` | Toggles on asynchronous processing for the app. | 
 <hr />
 
-## 4. <a name="spring-security">Spring Security</a>
+## 8. <a name="spring-security">Spring Security</a>
   
 **Overview:** The Spring Security framework includes mechanisms for authentication (such as single sign-on capabilities) and authorization, as well as securing apps against popular web security attacks. 
 <br />
@@ -86,7 +106,7 @@
 
 <hr />  
 
-## 5. <a name="spring-testing">Spring Testing</a>
+## 9. <a name="spring-testing">Spring Testing</a>
 
 **Overview:** The Spring Framework's Inversion of Control (IoC) principles and support for class constructors and setter methods allow for well-defined (such as in the case of wiring beans) and easily implemented unit and integration testing (especially when utilizing a test-driven development (TDD) approach).
 <br />
@@ -102,6 +122,6 @@
   
 <hr />
   
-TODO #1: Add annotations, descriptions, and table of contents entries for Spring Boot, Spring Core, Spring Data, and Spring MVC.
+TODO #1: Add overview sections and annotations tables for Spring Boot, Spring Core, Spring Data, and Spring MVC.
   
 TODO #2: Add code examples for annotations (as separate text files, linked to from this file), including one file for each category of annotation (9 files of code in total).
