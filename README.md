@@ -11,6 +11,7 @@
 7. [Spring Scheduling](#spring-scheduling)
 8. [Spring Security](#spring-security)
 9. [Spring Testing](#spring-testing)
+10. [Supplemental Resource](#supplemental)
   
 <hr />
 
@@ -122,6 +123,13 @@
   
 <hr />
   
-TODO #1: Add overview sections and annotations tables for Spring Boot, Spring Core, Spring Data, and Spring MVC.
+<hr />
+
+## 10. <a name="supplemental">Supplemental Resource</a>
   
+* [Intro to Spring Boot Guide](https://github.com/chaseofthejungle/intro-to-spring-boot)
+  
+<hr />
+  
+TODO #1: Add overview sections and annotations tables for Spring Boot, Spring Core, Spring Data, and Spring MVC.  
 TODO #2: Add code examples for annotations (as separate text files, linked to from this file), including one file for each category of annotation (9 files of code in total).
