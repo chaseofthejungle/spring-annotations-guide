@@ -11,7 +11,7 @@
 7. [Spring Scheduling](#spring-scheduling)
 8. [Spring Security](#spring-security)
 9. [Spring Testing](#spring-testing)
-10. [Supplemental Resource](#supplemental)
+10. [Supplemental Resources](#supplemental)
   
 <hr />
 
@@ -125,9 +125,10 @@
   
 <hr />
 
-## 10. <a name="supplemental">Supplemental Resource</a>
+## 10. <a name="supplemental">Supplemental Resources</a>
   
 * [Intro to Spring Boot Guide](https://github.com/chaseofthejungle/intro-to-spring-boot)
+* [Official Spring Website](https://spring.io/)
   
 <hr />
   
