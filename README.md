@@ -42,7 +42,20 @@
 <hr />  
 
 ## 2. <a name="spring-boot">Spring Boot</a>
-(TODO)
+  
+**Overview:** Spring Boot is an open source framework of libraries for the setup, programming, configuration, and deployment of Java microservice applications. Examples of Spring Boot features include diagnostic checks, production-ready metrics, customizable startup configurations, and embedded app servers (e.g., Jetty, Tomcat, Undertow). No code or XML generation is necessary to create Spring Boot projects, and best configurations for projects are automatically determined (and manually adjustable, as desired or needed).
+  
+**Essential Annotations include:**
+| Annotation | Explanation |
+| -------- | -------- |
+| @SpringBootApplication | Configures/bootstraps Spring apps by combining @ComponentScan, @Configuration, and @EnableAutoConfiguration. |
+| @EnableAutoConfiguration | Configures Spring app with common components, without the need for manual registration of beans. |
+| @EnableConfigurationProperties | Used when binding external configurations to Plain Old Java Objects (POJOs). |
+| @RestController | Establishes RESTful services by combining @ResponseBody and @Controller. |
+| @Values | Injects properties from environment variables and configuration setups. |
+| @ConditionalOnMissingBean | Configures beans if not previously defined. |
+| @ConditionalOnProperty | Configures beans if environmental property is present. |
+  
 <hr />
 
 ## 3. <a name="spring-cloud">Spring Cloud</a>
@@ -123,8 +136,6 @@
   
 <hr />
   
-<hr />
-
 ## 10. <a name="supplemental">Supplemental Resources</a>
   
 * [Intro to Spring Boot Guide](https://github.com/chaseofthejungle/intro-to-spring-boot)
@@ -132,5 +143,5 @@
   
 <hr />
   
-TODO #1: Add overview sections and annotations tables for Spring Boot, Spring Core, Spring Data, and Spring MVC.  
+TODO #1: Add overview sections and annotations tables for Spring Core, Spring Data, and Spring MVC.  
 TODO #2: Add code examples for annotations (as separate text files, linked to from this file), including one file for each category of annotation (9 files of code in total).
