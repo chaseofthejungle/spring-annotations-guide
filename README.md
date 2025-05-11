@@ -138,8 +138,9 @@
   
 ## 10. <a name="supplemental">Supplemental Resources</a>
   
-* [Intro to Spring Boot Guide](https://github.com/chaseofthejungle/intro-to-spring-boot)
-* [Official Spring Website](https://spring.io/)
+* *[Intro to Spring Boot Guide](https://github.com/chaseofthejungle/intro-to-spring-boot)*
+* *[Official Spring Website](https://spring.io/)*
+* *[Official Spring Boot Website](https://spring.io/projects/spring-boot)*
   
 <hr />
   
